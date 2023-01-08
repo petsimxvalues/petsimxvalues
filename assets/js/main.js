@@ -17,7 +17,13 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 250);
+			}, 750);
+		});
+	
+	$window.on('load', function() {
+			window.setTimeout(function() {
+				$head.removeClass('is-preload');
+			}, 750);
 		});
 
 	// Touch?
